@@ -35,10 +35,7 @@ If MySQL is installed inside WSL, start the service:
 ```sh
 sudo service mysql start
 ```
-If MySQL is installed on Windows, start it using:
-```sh
-net start MySQL80
-```
+If MySQL is installed on Windows, start it using **Windows Services** or MySQL Workbench.
 
 ### **Step 2: Login to MySQL**
 ```sh
@@ -58,6 +55,8 @@ Replace `yourdatabase` with your preferred database name.
 SHOW DATABASES;
 ```
 This will list all available databases, including the one you just created.
+
+**Note:** Ensure each SQL command ends with a semicolon (`;`).
 
 ---
 
@@ -172,7 +171,6 @@ To check MySQL status:
 
 ```sh
 sudo service mysql status  # If running inside WSL
-net start MySQL80  # If running on Windows
 ```
 
 ---
