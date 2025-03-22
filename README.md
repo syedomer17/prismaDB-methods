@@ -56,6 +56,27 @@ SHOW DATABASES;
 ```
 This will list all available databases, including the one you just created.
 
+### **Step 5: Select Your Database**
+```sql
+USE yourdatabase;
+```
+
+### **Step 6: Show Tables in the Database**
+```sql
+SHOW TABLES;
+```
+
+### **Step 7: View Table Data**
+If you have a table (e.g., `users`), you can view its contents:
+```sql
+SELECT * FROM users;
+```
+
+### **Step 8: Exit MySQL Shell**
+```sql
+exit;
+```
+
 **Note:** Ensure each SQL command ends with a semicolon (`;`).
 
 ---
